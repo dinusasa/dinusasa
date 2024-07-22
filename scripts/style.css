@@ -5,6 +5,7 @@
   font-family: "kode mono";
   background-color: rgb(5, 22, 32);
   color: aliceblue;
+  text-align: center;
   text-transform: capitalize;
 }
 *::selection {
@@ -77,7 +78,7 @@ h1 {
   letter-spacing: 1px;
 }
 p {
-  font-size: medium;
+  font-size: 16pt;
   margin: 15px;
   padding: 10px;
   background-color: aliceblue;
