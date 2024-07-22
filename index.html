@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Robotics</title>
+  <link rel="stylesheet" href="scripts/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nova+Round&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Edu+AU+VIC+WA+NT+Hand:regular,500,600,700" rel="stylesheet" />
+
+  <link href="https://fonts.googleapis.com/css?family=Tilt+Neon:regular" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Kode+Mono:regular,500,600,700" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="navbar" id="myNavbar">
+    <a href="#" class="active">Home</a>
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Contact</a>
+    <a href="javascript:void(0);" class="icon" onclick="toggleNavbar()">&#9776;</a>
+  </div>
+
+  <div class="content">
+    <h1>Robotics</h1>
+    <div class="content2">
+      <p>
+        Robotics is a rapidly advancing field that encompasses the design,
+        construction, operation, and use of robots. These machines, often
+        equipped with sensors, actuators, and software, are programmed to
+        perform tasks autonomously or semi-autonomously. From industrial
+        automation to personal assistants and exploratory rovers on distant
+        planets, robotics plays a pivotal role in transforming industries,
+        enhancing productivity, and exploring new frontiers.
+      </p>
+      <div class="images">
+
+        <img src="images/TqPjF.jpg" title="ameca: world's most advanced realistic robot" onclick="ameca()" />
+      </div>
+
+      <p>
+        One of the fundamental aspects driving the growth of robotics is
+        automation. Robots are extensively used in industries such as
+        manufacturing, logistics, and agriculture to automate repetitive
+        tasks. They excel in environments that are hazardous or impractical
+        for humans, demonstrating precision and efficiency in tasks like
+        assembly line operations, material handling, and crop harvesting. This
+        automation not only improves productivity but also reduces human
+        exposure to dangerous conditions, thereby enhancing workplace safety.
+      </p>
+      <div class="images">
+        <img src="images/89x3D.jpg" title="sophia: a social robot activated in valentine day" onclick="sophia()" />
+      </div>
+      <p>
+        Moreover, robotics has significantly impacted healthcare. Surgical
+        robots, for instance, assist surgeons in performing complex procedures
+        with unparalleled precision, minimizing incisions and reducing
+        recovery times for patients. These robots integrate advanced imaging
+        technologies and haptic feedback systems to enable surgeons to operate
+        with enhanced accuracy, making surgeries less invasive and more
+        effective.
+      </p>
+      <p>
+        In the realm of exploration, robotics has opened up new possibilities
+        for scientific discovery. Space exploration missions utilize robots to
+        gather data and conduct experiments in extreme environments where
+        human presence is challenging or impossible. Rovers like NASA's
+        Curiosity have explored the surface of Mars, transmitting valuable
+        scientific data back to Earth, paving the way for potential human
+        missions in the future. Similarly, underwater robots explore ocean
+        depths, studying marine ecosystems and collecting data crucial for
+        environmental research.
+      </p>
+      <p>
+        Beyond industrial and scientific applications, robotics is
+        increasingly becoming part of everyday life. Domestic robots, ranging
+        from vacuum cleaners to personal assistants like Amazon's Alexa or
+        Google Home, are becoming more commonplace, simplifying household
+        chores and providing interactive interfaces for users. These robots
+        employ artificial intelligence (AI) and machine learning algorithms to
+        adapt to their environments and user preferences, enhancing their
+        utility and integration into daily routines.
+      </p>
+      <p>
+        Ethical considerations surrounding robotics continue to evolve as the
+        technology advances. Questions about job displacement due to
+        automation, ethical implications of autonomous decision-making by
+        robots, and concerns about privacy and security in AI-driven systems
+        are actively debated. Addressing these challenges requires careful
+        consideration of regulatory frameworks, ethical guidelines, and
+        ongoing dialogue between stakeholders across various sectors.
+      </p>
+      <p>
+        Looking ahead, the future of robotics holds immense promise and
+        challenges. Continued advancements in AI, machine learning, and sensor
+        technologies will likely drive the development of more intelligent and
+        adaptable robots capable of learning from their experiences and
+        interacting seamlessly with humans and their environments.
+        Collaborative robots (cobots) designed to work alongside humans in
+        shared spaces are already gaining traction, revolutionizing industries
+        like healthcare, manufacturing, and logistics.
+      </p>
+      <p>
+        In conclusion, robotics is a dynamic field at the intersection of
+        engineering, computer science, and artificial intelligence. Its
+        applications span across industries, from enhancing productivity and
+        safety in manufacturing to enabling groundbreaking scientific
+        exploration and transforming everyday life. As robotics continues to
+        evolve, it will shape the future of technology, offering both
+        opportunities for innovation and challenges that must be addressed
+        thoughtfully to maximize its benefits for society as a whole.
+      </p>
+    </div>
+  </div>
+
+  <script>
+    function toggleNavbar() {
+      var navbar = document.getElementById("myNavbar");
+      if (navbar.className === "navbar") {
+        navbar.className += " responsive";
+      } else {
+        navbar.className = "navbar";
+      }
+    }
+    function ameca() {
+      window.location.href = "https://shorturl.at/DKxuT";
+    }
+    function sophia() {
+      window.location.href = "https://shorturl.at/wSjb4";
+    }
+  </script>
+</body>
+
+</html>
