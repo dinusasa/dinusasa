@@ -6,7 +6,6 @@
   background-color: rgb(5, 22, 32);
   color: aliceblue;
   text-transform: capitalize;
-  text-align: center;
 }
 *::selection {
   background-color: #12805b;
@@ -80,7 +79,6 @@ h1 {
 p {
   font-size: medium;
   margin: 15px;
-  text-align: justify;
   padding: 10px;
   background-color: aliceblue;
   color: black;
